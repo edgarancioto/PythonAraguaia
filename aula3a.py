@@ -61,3 +61,4 @@ print(end-start)
 for coluna in df.columns:
     print(coluna, df[coluna][~df[coluna].isna()].count())
 
+print('')
